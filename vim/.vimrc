@@ -10,19 +10,19 @@ set encoding=utf-8
 "path to bundle vundle"
 set rtp+=~/.vim/bundle/Vundle.vim
 "plugin"
-call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'jonathanfilip/vim-lucius'
+"call vundle#begin()
+"Plugin 'gmarik/Vundle.vim'
+"Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'jonathanfilip/vim-lucius'
 "Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --system-libclang' }
-Plugin 'edkolev/tmuxline.vim'
-Plugin 'morhetz/gruvbox'
-call vundle#end()
+"Plugin 'edkolev/tmuxline.vim'
+"Plugin 'morhetz/gruvbox'
+"call vundle#end()
 
 " theme gruvbox
 set background=dark
-colorscheme gruvbox
+"colorscheme gruvbox
 
 
 "airline setting"
@@ -131,9 +131,9 @@ set wildmenu
 " 使回格键（backspace）正常处理indent, eol, start等
 set backspace=2
 " 允许backspace和光标键跨越行边界
-set whichwrap+=<,>,h,l
+set whichwrap+=<,>,h,l,[,]
 " 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）
-set mouse=a
+set mouse=i
 set selection=exclusive
 set selectmode=mouse,key
 " 通过使用: commands命令，告诉我们文件的哪一行被改变过
