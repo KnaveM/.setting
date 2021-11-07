@@ -10,15 +10,16 @@ set encoding=utf-8
 "path to bundle vundle"
 set rtp+=~/.vim/bundle/Vundle.vim
 "plugin"
-"call vundle#begin()
-"Plugin 'gmarik/Vundle.vim'
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'davidhalter/jedi-vim'
 "Plugin 'vim-airline/vim-airline'
 "Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'jonathanfilip/vim-lucius'
 "Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --system-libclang' }
 "Plugin 'edkolev/tmuxline.vim'
 "Plugin 'morhetz/gruvbox'
-"call vundle#end()
+call vundle#end()
 
 " theme gruvbox
 set background=dark
