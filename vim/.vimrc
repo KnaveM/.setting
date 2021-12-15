@@ -12,7 +12,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 "plugin"
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
-Plugin 'davidhalter/jedi-vim'
+"Plugin 'davidhalter/jedi-vim'
+Plugin 'fatih/vim-go'
+Plugin 'ycm-core/YouCompleteMe'
 "Plugin 'vim-airline/vim-airline'
 "Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'jonathanfilip/vim-lucius'
