@@ -23,6 +23,11 @@ Plugin 'ycm-core/YouCompleteMe'
 "Plugin 'morhetz/gruvbox'
 call vundle#end()
 
+" ycm
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_show_diagnostics_ui = 0
+
 " theme gruvbox
 set background=dark
 "colorscheme gruvbox
@@ -86,7 +91,7 @@ set tabstop=4
 " 统一缩进为4
 set softtabstop=4
 set shiftwidth=4
-" 不要用空格代替制表符
+" bu用空格代替制表符
 set noexpandtab
 " 在行和段开始处使用制表符
 set smarttab
