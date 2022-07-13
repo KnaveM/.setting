@@ -25,10 +25,3 @@ jobs:
       
       - name: path
         run: pwd
-      # Runs a single command using the runners shell
-      # - name: Build algo724 backend
-        # run: docker-compose -f /home/user/algo724/algo724_backend/compose.yml up -d --force-recreate --build
-
-      # Runs a set of commands using the runners shell
-      # - name: Build algobot proxy
-        # run: docker-compose -f /home/user/algo724/algobot/compose.yml up -d --force-recreate --build
