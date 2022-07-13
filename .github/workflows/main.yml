@@ -19,10 +19,12 @@ jobs:
         with:
           fetch-depth: 0
           ref: master
-        run: pwd
 
       - name: echo
         run: echo test finished
+      
+      - name: path
+        run: pwd
       # Runs a single command using the runners shell
       # - name: Build algo724 backend
         # run: docker-compose -f /home/user/algo724/algo724_backend/compose.yml up -d --force-recreate --build
